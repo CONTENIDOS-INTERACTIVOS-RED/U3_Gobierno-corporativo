@@ -22,9 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El Gobierno Corporativo establece normas para una gestión empresarial transparente y responsable, promoviendo la colaboración entre accionistas, directivos y demás partes interesadas. Su estructura varía según modelos internacionales como el norteamericano, anglosajón, japonés y colombiano, cada uno adaptado a sus contextos legales y culturales. Este enfoque fomenta principios clave: responsabilidad, transparencia, equidad e independencia, esenciales para la sostenibilidad organizacional. En Colombia, incluye normativas como el Código de Buen Gobierno, pilares de transparencia y autorregulación, además de valorar la diversidad en juntas directivas para enriquecer la toma de decisiones.
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4 <em> ¡A seguir avanzando con determinación! </em>
-
+              p.descripcion.mb-4 La gobernanza en organizaciones multinacionales aborda desafíos en entornos complejos, diversidad cultural y responsabilidad ética. Este concepto incluye niveles como la gobernanza primaria, secundaria y meta-gobernanza, además de enfoques internacionales, corporativos y democráticos. Destaca la coordinación entre actores públicos y privados, con principios como transparencia y sostenibilidad. La responsabilidad social corporativa integra aspectos económicos, legales, éticos y filantrópicos, promoviendo un impacto positivo en las comunidades. La gobernanza ambiental, según Oran Young, resalta la adaptación y aprendizaje en regímenes internacionales para enfrentar problemas globales como el cambio climático.
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto

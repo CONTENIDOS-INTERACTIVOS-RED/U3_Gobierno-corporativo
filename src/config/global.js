@@ -16,8 +16,9 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Principios y estructuras del gobierno corporativo',
+    numeroUnidad: '3',
+    tituloUnidad:
+      'Desafíos y tendencias del gobierno corporativo en entornos complejos',
   },
   menuPrincipal: {
     menu: [
@@ -31,32 +32,43 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Fundamentos del gobierno corporativo',
+        titulo: 'Gobernanza en Organizaciones Multinacionales',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Concepto de gobernanza',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Gobernanza Ambiental ',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'La Visión de las organizaciones internacionales',
+            hash: 't_1_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Estructura del Gobierno Corporativo ',
+        titulo: 'Responsabilidad y ética en el gobierno corporativo ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Estructuras de gobierno corporativo en el mundo',
+            titulo: 'Ética del gobierno corporativo',
             hash: 't_2_1',
           },
         ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Pilares del Gobierno Corporativo en Colombia',
-        desarrolloContenidos: true,
-        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -96,97 +108,116 @@ export default {
   referencias: [
     {
       referencia:
-        'Betancur A. (2013). Gobierno Corporativo: Una Comparación de Códigos de Gobierno en el mundo, Un modelo para empresas latinoamericanas familiares y no familiares 1. Revista Entramado Vol. 9 No. 2.',
-      link: 'http://www.scielo.org.co/pdf/entra/v9n2/v9n2a08.pdf',
+        'Gómez Salazar, D. (2013). Las organizaciones internacionales en la gobernanza: Qhapaq Ñan-Gran Ruta Inca entre Ecuador y Perú. Quito, Ecuador: Ediciones Abya-Yala.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/79137?page=22',
     },
     {
       referencia:
-        'Garzón, M. (2021). EL CONCEPTO DE GOBIERNO CORPORATIVO. Revista Científica "Visión de Futuro" - Facultad de Ciencias Económicas – UnaM.',
-      link: 'https://www.redalyc.org/journal/3579/357966632009/',
+        'Gómez Salazar, D. (2013). Las organizaciones internacionales en la gobernanza: Qhapaq Ñan-Gran Ruta Inca entre Ecuador y Perú. Quito, Ecuador: Ediciones Abya-Yala. Autor citado por Jan Kooiman (2005: 173).',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/79137?page=35',
     },
     {
       referencia:
-        'Haro-Sarango, A. (2021). Estructura de Gobierno Corporativo: Un aplicativo para la transparencia y mejora empresarial en Ecuador. Revista científica en ciencias sociales, 3(2), 111-121.',
+        'Gómez Salazar, D. (2013). Las organizaciones internacionales en la gobernanza: Qhapaq Ñan-Gran Ruta Inca entre Ecuador y Perú. Quito, Ecuador: Ediciones Abya-Yala.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/79137?page=33',
+    },
+    {
+      referencia:
+        'Oran Youg, Gómez Salazar, D. (2013). Las organizaciones internacionales en la gobernanza: Qhapaq Ñan-Gran Ruta Inca entre Ecuador y Perú. Quito, Ecuador: Ediciones Abya-Yala.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/79137?page=37',
+    },
+    {
+      referencia:
+        'Paul Diehl (2005: 2 y 3). Gómez Salazar, D. (2013). Las organizaciones internacionales en la gobernanza: Qhapaq Ñan-Gran Ruta Inca entre Ecuador y Perú. Quito, Ecuador: Ediciones Abya-Yala.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/79137?page=38',
+    },
+    {
+      referencia:
+        'Sakoto Mori, (Mori, 2004: 157 y 158). El resultado de estos estudios mostrará la efectividad y legitimidad de su accionar en estas esferas. Gómez Salazar, D. (2013). Las organizaciones internacionales en la gobernanza: Qhapaq Ñan-Gran Ruta Inca entre Ecuador y Perú. Quito, Ecuador: Ediciones Abya-Yala.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/79137?page=40',
+    },
+    {
+      referencia:
+        'Soto, D. y Soto, D. (Il.) (2016). Gobierno corporativo y ética de los negocios. Santiago de Chile, Chile: RIL editores. Capítulo 4: Ética de los negocios en una economía global.',
       link:
-        'http://scielo.iics.una.py/scielo.php?script=sci_arttext&pid=S2708-04122021000200111#B2',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/67587?page=333',
     },
     {
       referencia:
-        'Izquierdo, Et al. (2014). El gobierno corporativo como motor de la responsabilidad social corporativa. Universitat Jaume I. Servei de Comunicació i Publicacions.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/53258',
-    },
-    {
-      referencia:
-        'Mallin, CA. (2011). Manual sobre gobernanza corporativa internacional: análisis de países. Segunda edición, Edward Elgar Publishing, Cheltenham.',
-      link: 'http://dx.doi.org/10.4337/9781849808293',
-    },
-    {
-      referencia:
-        'Mastragelo, A. (2017). The financial aspects of corporate governance.',
+        'Soto, D. y Soto, D. (Il.) (2016). Gobierno corporativo y ética de los negocios. Santiago de Chile, Chile: RIL editores. Pirámide de responsabilidad social corporativa de Carroll.',
       link:
-        'https://alejandramastrangelo.com/wp-content/uploads/2017/12/Report-of-The-Committee-on-The-Financial-Aspects-of-Corporate-Governance.pdf',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/67587?page=349',
     },
     {
       referencia:
-        'Olcese, A. (2014). La responsabilidad social, motor del cambio empresarial: una propuesta española para Europa y América Latina. McGraw-Hill España.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/50281',
+        'Soto, D. y Soto, D. (Il.) (2016). Gobierno corporativo y ética de los negocios. Santiago de Chile, Chile: RIL editores. La ética importa.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/67587?page=23',
     },
     {
       referencia:
-        'Fernández Izquierdo, M. Á. (2014). El gobierno corporativo como motor de la responsabilidad social corporativa. Castelló de la Plana, Spain: Universitat Jaume I. Servei de Comunicació i Publicacions.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/53258%20pag%2028?page=28',
+        'Soto, D. y Soto, D. (Il.) (2016). Gobierno corporativo y ética de los negocios. Santiago de Chile, Chile: RIL editores. La base moral.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/67587?page=25',
+    },
+    {
+      referencia:
+        'Soto, D. y Soto, D. (Il.) (2016). Gobierno corporativo y ética de los negocios. Santiago de Chile, Chile: RIL editores. El poder del cine.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/67587?page=27',
     },
   ],
   glosario: [
     {
-      termino: 'Alta Gerencia',
+      termino: 'Ciberseguridad',
       significado:
-        'División de una compañía que se encarga de la gestión operativa diaria de la empresa.',
+        'Es la práctica de proteger la información digital, los dispositivos y los activos de ataques digitales.',
     },
     {
-      termino: 'Autorregulación',
+      termino: 'CMNUCC',
       significado:
-        'Capacidad de controlar las emociones y el comportamiento de acuerdo a las demandas de una situación. Es una habilidad que se desarrolla con el tiempo y que puede ayudar a mejorar la calidad de vida emocional, las relaciones interpersonales, la productividad y la toma de decisiones.',
+        'Convención Marco de las Naciones Unidas sobre el Cambio Climático.',
     },
     {
-      termino: 'Comité Gerencial',
+      termino: 'Deontologismo',
       significado:
-        'Grupo de personas que gestiona y formula las estrategias empresariales.',
+        'La deontología es una teoría ética que se encarga de regular los deberes y principios que rigen una actividad profesional.',
     },
     {
-      termino: 'Diversidad de género',
+      termino: 'ESG',
       significado:
-        'La diversidad de género es la posibilidad que tienen las personas de vivir, expresar y asumir su sexualidad, así como sus orientaciones, expresiones, preferencias e identidades sexuales.',
+        "Las siglas ESG, en inglés, o ASG, en castellano, se refieren a los criterios que se utilizan para evaluar el desempeño e impacto de la empresa sobre los ámbitos en 'E' de environmental o ambiental, 'S' de social y 'G' de governance o gobernanza.",
     },
     {
-      termino: 'GB',
-      significado: 'Gobierno Corporativo.',
+      termino: 'Eudaimonía',
+      significado:
+        'La eudaimonía, bien supremo, es la actividad del alma racional de acuerdo con la virtud; hay dos clases de virtudes: morales e intelectuales; la virtud moral reside en un término medio determinado por la virtud intelectual de la sabiduría práctica; sabiduría y virtud moral son interdependientes.',
     },
     {
-      termino: 'Informe Cadbury',
+      termino: 'La ética teleológica',
       significado:
-        'Fue el primer modelo de control interno del Reino Unido y es reconocido a nivel mundial. Su objetivo principal es abordar aspectos de gobierno corporativo y financieros y ha servido para dar certeza, sobre todo a aquellas empresas que cotizan en dichos mercados.',
+        "La ética teleológica es una teoría moral que establece que la obligación moral deriva de lo que es deseable o bueno como fin a alcanzar. La palabra teleológica proviene del griego telos, que significa 'fin', y logos, que significa 'ciencia'.",
     },
     {
-      termino: 'Junta Directiva',
+      termino: 'NDC',
       significado:
-        'Órgano de gobierno que se encarga de tomar decisiones y supervisar la estructura organizacional de una empresa u organización.',
+        'Son las siglas en inglés de Contribuciones Determinadas a Nivel Nacional.',
     },
     {
-      termino: 'OPA',
+      termino: 'ONG',
       significado:
-        'Oferta Pública De Adquisición. Es una operación en la que un grupo de personas o empresas ofrecen comprar las acciones de una empresa a sus accionistas. El precio de compra suele ser mayor al del mercado y se conoce como prima. Las opas pueden ser voluntarias u obligatorias, amistosas u hostiles.',
+        'Una ONG, o Organización No Gubernamental, es un grupo de ciudadanos voluntarios que se organizan sin ánimo de lucro para trabajar en causas sociales, culturales, de desarrollo, entre otras. Las ONG son entidades independientes que no están asociadas a ningún gobierno.',
+    },
+    {
+      termino: 'QHAPAQ ÑAN',
+      significado: 'Camino del inca.',
     },
     {
       termino: 'Stakeholders',
       significado:
-        'Personas u organizaciones que tienen un interés en las actividades y resultados de una empresa.',
+        "Personas o grupos que tienen algún interés en una empresa o proyecto, y que pueden verse afectados o influir en él. La palabra stakeholder se traduce del inglés como 'partes interesadas'.",
     },
     {
-      termino: 'Transparencia',
+      termino: 'VUCA',
       significado:
-        'Es la práctica de compartir información real, útil y comprensible con las partes interesadas de una organización. Esto incluye a empleados, clientes, proveedores y la comunidad en general.',
+        'VUCA es un acrónimo en inglés que significa Volatilidad, Incertidumbre, Complejidad y Ambigüedad. Se utiliza para describir situaciones, escenarios o mercados que son complejos, cambiantes e inseguros.',
     },
   ],
   complementario: [

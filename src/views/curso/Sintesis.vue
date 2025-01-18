@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 El Gobierno Corporativo promueve transparencia y responsabilidad mediante normas que alinean intereses y garantizan decisiones éticas. En Colombia, integra principios como diversidad y sostenibilidad, equilibrando resultados económicos con impacto social y ambiental.
+    p.mb-4.mb-md-5 El gobierno corporativo enfrenta un entorno complejo y en constante evolución, impulsado por la globalización, la innovación tecnológica y las crecientes expectativas sociales. Las organizaciones deben equilibrar la creación de valor económico con el cumplimiento de estándares éticos, ambientales y sociales, mientras navegan por regulaciones cambiantes y riesgos emergentes. Los principales desafíos incluyen la gestión de la diversidad en las juntas directivas, la transparencia en la toma de decisiones y la rendición de cuentas en un contexto de presión de los stakeholders. Por otra parte, la integración de criterios ESG, la digitalización y el uso de inteligencia artificial están transformando las prácticas tradicionales del gobierno corporativo.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     

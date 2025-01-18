@@ -1,202 +1,248 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. Estructura del Gobierno Corporativo '")
+  BannerInterno(:subTitulo="'2. Responsabilidad y ética en el gobierno corporativo'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-4 La estructura de gobierno corporativo define la distribución de derechos y responsabilidades entre los diferentes participantes en una corporación, como la junta directiva, los gerentes, los directores, los accionistas y otras partes interesadas. Además, establece las reglas y procedimientos para la toma de decisiones en asuntos corporativos. Desde otra perspectiva, se puede afirmar que el gobierno corporativo es un sistema diseñado para proporcionar control y dirección a las organizaciones.
-    p.mb-3 <b>Figura 1. </b> El sistema de creación de valor y el gobierno corporativo.
-    .row.mb-4
-      .col-12.col-lg-10.mx-auto(data-aos="fade-up")
-        figure.mb-4
-          img.mb-3(src='@/assets/curso/unidad/img-16.png', alt='Texto que describa la imagen')
-        figcaption.w-fit <b>Nota. </b> Tomado de Fernández Izquierdo, M. Á. (2014).
-    
-    #t_2_1.titulo-segundo
-      div.d-flex
-        span.me-3 2.1  
-        h2 Estructuras de gobierno corporativo en el mundo
+    p.mb-4 En un entorno empresarial globalizado y competitivo, la responsabilidad y la ética se han convertido en pilares fundamentales para garantizar un gobierno corporativo sólido y sostenible. La responsabilidad implica que las organizaciones asuman las consecuencias de sus decisiones ante accionistas y otros grupos de interés, mientras que la ética promueve principios y valores que guían decisiones justas, transparentes y alineadas con el bien común.
+    h2 Responsabilidad social corporativa global
 
-    p.mb-4 Las estructuras de gobierno corporativo varían en el mundo según las regulaciones legales, los sistemas económicos y las prácticas culturales de cada región.
-    h2.mb-3 Modelo norteamericano
+    p.mb-4 En un mundo globalizado, la Responsabilidad Social Corporativa (RSC) adquiere diferentes enfoques según el contexto cultural, económico y social:
+
+    ImagenInfografica.color-secundario.mb-4.bg-white
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
+
+      .tarjeta.bg-amarillo.p-4(x="30.4%" y="31%" numero="+")
+        .h5.mb-2 Estados Unidos
+
+        p Justificación económica para maximizar el valor para los accionistas.
+      .tarjeta.bg-gris.p-4(x="60%" y="30%" numero="+")
+        .h5.mb-2 Unión Europea
+
+        p Alineación con principios éticos, compromiso social y ciudadanía responsable.
+      .tarjeta.bg-rojo.p-4(x="38.7%" y="73%" numero="+")
+        .h5.mb-2 América Latina
+
+        p Prioridad en comunidades vulnerables y desarrollo sostenible
+
+    p.mb-4 Este panorama refleja cómo las responsabilidades organizacionales varían en función del contexto internacional.
+    
+    h2 Responsabilidad económica
+    p.mb-4 La base de cualquier empresa es generar beneficios para garantizar su viabilidad y sostenibilidad, satisfaciendo necesidades de los clientes mediante productos y servicios de calidad. Esto implica:
+
+    .row.mb-4
+      .col-10.col-md-8.col-lg-4.mx-auto.d-flex.flex-column(data-aos="fade-right")
+        .bg-verde-2.px-4.py-3.px-xl-5.mb-0.rounded-top-16.text-center
+          p.text-bold.mb-0 Viabilidad y rentabilidad 
+        .bg-verde-2-claro.p-4.px-xl-5.h-100.rounded-bottom-16.text-center
+          span Asegurar la supervivencia y crecimiento de la organización. 
+      .col-10.col-md-8.col-lg-4.mx-auto.d-flex.flex-column(data-aos="fade-up")
+        .bg-amarillo-oscuro.px-4.py-3.px-xl-5.mb-0.rounded-top-16.text-center
+          p.text-bold.mb-0 Contribución económica
+        .bg-amarillo.p-4.px-xl-5.h-100.rounded-bottom-16.text-center
+          span Generar empleo y promover el desarrollo de comunidades.
+      .col-10.col-md-8.col-lg-4.mx-auto.d-flex.flex-column(data-aos="fade-left")
+        .bg-rojo-oscuro.px-4.py-3.px-xl-5.mb-0.rounded-top-16.text-center
+          p.text-bold.mb-0 Ejemplo
+        .bg-rojo.p-4.px-xl-5.h-100.rounded-bottom-16.text-center
+          span Producción de bienes y servicios que cumplan con las expectativas de los consumidores.
+
+    .bg-fondo-1.bg-full-width
+      .px-5.pb-md-3.py-4
+
+        h2 Responsabilidad legal
+
+        p.mb-4 Cumplir con las normativas locales es esencial para garantizar operaciones legales y legítimas. Para empresas multinacionales, esto implica:
+        
+        .row.mb-4.justify-content-center 
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-28.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Cumplimiento normativo
+              p.px-1.text-small.mb-0.d-flex.text-center Respeto a leyes fiscales, laborales y de seguridad de productos.        
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-29.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Desafíos multinacionales
+              p.px-1.text-small.mb-0.d-flex.text-center Adaptarse a regulaciones diversas en diferentes países.
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-30.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Ejemplo
+              p.px-1.text-small.mb-0.d-flex.text-center Cumplimiento de obligaciones fiscales y normativas laborales.         
+
+    p.mb-4 Este cumplimiento protege a las empresas de sanciones y fortalece su reputación ante la sociedad.
+
+    h2 Responsabilidad ética
+
+    p.mb-4 La responsabilidad ética implica adherirse al principio de "hacer lo correcto", actuando con integridad y justicia más allá de las exigencias legales. Esto incluye:
 
     .row.mb-4
       .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-17.png', alt='Texto que describa la imagen')  
+        img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')  
       .col-12.col-xl-7.d-flex.flex-column
-        p.mb-4 En Estados Unidos, las estructuras de gobierno corporativo están diseñadas para garantizar el cumplimiento de la ley y la alineación con los períodos fiscales. Los estatutos de las empresas determinan la frecuencia de las reuniones de la Asamblea de Accionistas, que suelen coincidir con el cierre del año fiscal.
-        .d-flex.align-items-start.bg-rojo.p-4(data-aos="fade-left")
-          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-18.svg', alt='Texto que describa la imagen')
+        .d-flex.align-items-start.bg-verde-claro.p-4(data-aos="fade-up")
+          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-32.svg', alt='Texto que describa la imagen')
           .d-flex.flex-column
-            p.pe-xl-3.mb-0(data-aos="fade-up") Una característica distintiva de este modelo es la tendencia a unificar las funciones del Presidente de la Junta y del Presidente Ejecutivo en una sola persona. Las Juntas Directivas generalmente incluyen entre 8 y 16 miembros.
+            div.d-flex.mb-3
+              p.pe-3.mb-0 •
+              p.mb-0 <b>Definición de ética. </b>Basada en costumbres, normas y valores de cada comunidad.
+            div.d-flex.mb-3
+              p.pe-3.mb-0 •
+              p.mb-0 <b>Estándares internacionales. </b>Pacto Global de la ONU: eliminación del trabajo infantil, lucha contra la corrupción, entre otros.
+            div.d-flex.mb-3
+              p.pe-3.mb-0 •
+              p.mb-0 <b>Ejemplo. </b>Tratar a empleados y clientes con equidad y minimizar impactos negativos en el medio ambiente.
+    p.mb-4 Esta responsabilidad fomenta confianza y credibilidad, contribuyendo a un desarrollo justo y sostenible.
 
-    p.mb-4 El modelo norteamericano se organiza en comités clave, según el análisis de Alexander Haro y otros autores:
+    h2 Responsabilidad filantrópica
+    p.mb-4 En la cima de la pirámide de la responsabilidad corporativa, la filantropía refleja el compromiso voluntario de las empresas con el bienestar colectivo. Ejemplos de iniciativas incluyen:
+    .row
+      .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4
+        .bg-gris.p-4(data-aos="fade-right")
+          p.mb-2.text-center.text-bold Donaciones 
+          p.mb-0.text-center Apoyo a causas benéficas y proyectos educativos.
+      .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4
+        .bg-verde.p-4(data-aos="fade-up")
+          p.mb-2.text-center.text-bold Voluntario corporativo
+          p.mb-0.text-center Fortalecimiento del compromiso social y lealtad de los empleados.
+      .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4
+        .bg-rojo.p-4(data-aos="fade-left")
+          p.mb-2.text-center.text-bold Sostenibilidad ambiental
+          p.mb-0.text-center Implementación de acciones para preservar el medio ambiente.
 
-    .row.position-relative.mb-4.py-4.bg-fondo-2.bg-full-width
-      div.px-4.px-md-5.py-md-3
-        SlyderA(tipo="b").bg-white
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-right")
-              figure
-                img(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
-              p.text-bold Comité Gerencial
-              p Responsable de gestionar y formular estrategias empresariales.
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-right")
-              figure
-                img(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
-              p.text-bold Comité de Directores Externos
-              p Compuesto por personas sin dependencia laboral con la empresa, se enfocan en evaluar el desempeño de la gerencia y tomar decisiones estratégicas.
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-right")
-              figure
-                img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
-              p.text-bold Comité de Compensación
-              p Formado por individuos independientes, diseña y planifica la remuneración de los directivos, asegurando alineación con los objetivos corporativos.
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-right")
-              figure
-                img(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
-              p.text-bold Comité de Auditoría
-              p Integrado principalmente por miembros independientes, supervisa las actividades empresariales, evalúa la confiabilidad de los estados financieros, revisa el control interno y emite reportes.
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="zoom-in-right")
-              figure
-                img(src='@/assets/curso/unidad/img-23.png', alt='Texto que describa la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
-              p.text-bold Comité de Nominación o Gobierno Corporativo (GC)
-              p Encargado de reclutar nuevos miembros en caso de vacantes en la Junta Directiva y evaluar el desempeño de la Junta y sus integrantes.
-    p.mb-4 Este modelo busca un equilibrio entre la supervisión interna y la independencia, promoviendo la eficiencia y la confianza en la gestión corporativa.
-    p.mb-3 <b>Figura 2. </b> Estructura de Gobierno Corporativo en el Modelo Norteamericano 
+    p.mb-4 Este nivel reconoce a las empresas como agentes de cambio, promoviendo un desarrollo equitativo y sostenible en beneficio de todos.
+
+    .row.mb-4.mx-0
+      .col-12.col-xl-8.d-flex.align-items-center.bg-verde-claro.p-4(data-aos="fade-right")
+        p.mb-0 La conjunción de responsabilidad y ética en el gobierno corporativo no solo fortalece la confianza de los stakeholders, sino que también asegura la sostenibilidad a largo plazo de las organizaciones, posicionándolas como aliadas del progreso social y económico global.
+      .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
+        img.h-100(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen')
+
+    p.mb-4 <b>Figura 1.</b>Pirámide de responsabilidad social corporativa de Carroll.
+
     .row.mb-4
-      .col-10.col-xl-8.mx-auto(data-aos="fade-up")
-        figure.mb-4
-          img.mb-3(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')
-        figcaption.w-fit <b>Nota. </b> Tomado de Gómez-Betancourt, G., & Zapata-Cuervo, N.  (2013).
+      .col-12.col-md-10.mx-auto
+        img.mb-2(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')
+        figcaption <b>Nota. </b>Tomado de Soto, D. y Soto, D. (Il.) (2016). Gobierno corporativo y ética de los negocios. 
+
     
-    h2 Modelo anglosajón
-    p.mb-4 En países como Estados Unidos y Reino Unido, el gobierno corporativo se caracteriza por:
+    p.mb-4 La innovación, el emprendimiento y el crecimiento económico están estrechamente vinculados a la capacidad de generar valor económico y aportar beneficios tanto a los clientes como a la sociedad. Lograr este objetivo a largo plazo requiere actuar con responsabilidad en los aspectos legales y técnicos, así como poner atención al “cómo” se hacen las cosas.
+    
+    #t_2_1.titulo-segundo(data-aos="flip-up")
+      div.d-flex
+        span.me-3 2.1  
+        h2 Ética del gobierno corporativo
+    
+    p.mb-4 La ética en el gobierno corporativo constituye un fundamento esencial para garantizar un desempeño organizacional transparente, responsable y sostenible. En este podcast se explora cómo las empresas equilibran la búsqueda de beneficios económicos con el cumplimiento de valores éticos, regulaciones legales y expectativas sociales.
 
     .row.mb-4
-      .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-7.col-xl-8(data-aos="fade-left")
+      .col-10.col-md-8.col-lg-6.mx-auto(data-aos="zoom-in")
+        
+        TarjetaAudio.color-primario.bg-white.mb-3(
+          texto="Proceso de descarga de Ética del gobierno corporativo"
+          tiempo
+          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
+
+    h2 La base moral
+
+    p.mb-4 La ética constituye un pilar esencial para construir una vida significativa, al proporcionar un marco de valores y creencias que orientan las decisiones y acciones humanas. Este conjunto de principios establece las bases para una convivencia armoniosa y con propósito. El bienestar y la paz interior dependen en gran medida de la solidez de la base moral que cada persona desarrolla a lo largo de su vida.
+
+    p.text-bold.mb-4 Concepto de Ser Bueno
+    p.mb-4 Una de las preguntas fundamentales en el ámbito ético es: <b>¿Qué significa ser bueno?</b> Actuar de acuerdo con principios que favorecen el bienestar común y respetan la dignidad humana.
+
+    .row.mb-4
+      .col-12.col-xl-6.d-flex.flex-column
+        .d-flex.align-items-start.bg-amarillo.p-4.h-100(data-aos="fade-right")
+          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-35.svg', alt='Texto que describa la imagen')
+          .d-flex.flex-column
+            p.text-bold.pe-xl-3.mb-0(data-aos="fade-up") Relatividad del concepto
+            span Varia según culturas, tradiciones y sistemas de valores
+      .col-12.col-xl-6.d-flex.flex-column
+        .d-flex.align-items-start.bg-gris.p-4(data-aos="fade-left")
+          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-36.svg', alt='Texto que describa la imagen')
+          .d-flex.flex-column
+            p.text-bold.pe-xl-3.mb-0(data-aos="fade-up") Desafío universal 
+            span Las definiciones de lo “bueno” dependen del contexto y las normas sociales, lo que dificulta un consenso universal.
+
+
+    .bg-fondo-1.bg-full-width
+      .px-5.pb-md-3.py-4
+        
+        p.mb-4 La búsqueda de respuestas éticas únicas y universales es compleja debido a las diferencias culturales, aunque los principios de deber, virtud, justicia y responsabilidad son fundamentales para avanzar éticamente.
+
+        .row.mb-4.justify-content-center 
+          .col-10.col-md-8.col-lg-4.col-xl-3.mb-4.mb-xl-0(data-aos="fade-right")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-37.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Deber
+              p.px-1.text-small.mb-0.d-flex.text-center Obligaciones morales hacia los demás.
+          .col-10.col-md-8.col-lg-4.col-xl-3.mb-4.mb-xl-0(data-aos="fade-up")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-38.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Virtud
+              p.px-1.text-small.mb-0.d-flex.text-center Desarrollo de cualidades morales que guían las acciones.
+          .col-10.col-md-8.col-lg-4.col-xl-3.mb-4.mb-xl-0(data-aos="fade-up")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-39.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Justicia
+              p.px-1.text-small.mb-0.d-flex.text-center Promoción de la equidad y el respeto mutuo. 
+          .col-10.col-md-8.col-lg-4.col-xl-3.mb-4.mb-xl-0(data-aos="fade-left")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-40.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Responsabilidad
+              p.px-1.text-small.mb-0.d-flex.text-center Asumir las consecuencias de las propias acciones.
+    
+    p.mb-4 Estos principios invitan a reflexionar sobre cuestiones éticas importantes, como la posibilidad de alcanzar consensos morales en contextos de valores divergentes o la existencia de principios éticos universales.
+
+    h2 Corrientes de la teoría ética
+
+    p.mb-4 En el gobierno corporativo, la ética orienta las decisiones y acciones organizacionales. Entre las corrientes éticas más relevantes se encuentran:
+
+
+    .row.mb-5
+      .col-12.col-lg-4.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-8(data-aos="fade-left")
         AcordionA(tipo="b")
-          .div(titulo="Propiedad dispersa")
-            p Los accionistas suelen tener participaciones pequeñas, evitando concentraciones de poder. Ejemplo: en la Bolsa de Londres, quienes controlan el 90% de las compañías poseen un máximo del 25% de las acciones.
-          .div(titulo="Mercado de capitales activo")
-            p La liquidez y eficiencia de los mercados facilitan la compra y venta de acciones, promoviendo que las empresas sean adquiridas si no están bien gestionadas.
-          .div(titulo="Ofertas Públicas de Adquisición (OPA)")
-            p Funcionan como un mecanismo para disciplinar a la gestión empresarial.
-          .div(titulo="Protección legal")
-            p Mejora la transparencia y minimiza los conflictos de interés entre directivos y accionistas.
+          .div(titulo="Ética de la virtud")
+            p ●	Inspirada en Aristóteles, esta corriente promueve la formación de un carácter moral sólido. <br>●	Las decisiones corporativas deben reflejar virtudes como la honestidad, la justicia y la responsabilidad.<br>●	Se enfoca más en el "ser" (la persona virtuosa) que en las reglas o los resultados.
 
-    h2 Sistema japonés
-    p.mb-4 El gobierno corporativo japonés se centra en:
-    .row.mb-4
-      .col-6.mx-auto.d-flex.flex-column(data-aos="fade-right")
-        .bg-verde-2.px-4.py-3.px-xl-5.mb-0.border-verde.rounded-top-16
-          p.text-bold.mb-0.text-white Asambleas de accionistas
-        .bg-verde-2-claro.p-4.px-xl-5.h-100.border-verde.rounded-bottom-16
-          span Compuestas por ejecutivos retirados y miembros de grandes grupos de accionistas.
-      .col-6.mx-auto.d-flex.flex-column(data-aos="fade-right")
-        .bg-morado.px-4.py-3.px-xl-5.mb-0.border-morado.rounded-top-16
-          p.text-bold.mb-0.text-white Rentabilidad empresarial
-        .bg-morado-2-claro.p-4.px-xl-5.h-100.border-morado.rounded-bottom-16
-          span Compromiso con maximizar beneficios para los accionistas, garantizando la igualdad entre ellos.
+          .div(titulo="Ética teleológica")
+            p ●	También conocida como ética de las consecuencias, evalúa las acciones según los beneficios o perjuicios que generan.<br>●	En el contexto corporativo, sugiere que las decisiones deben buscar el mayor bien para el mayor número de personas (ética utilitarista).<br>●	Ejemplo: Una acción es correcta si maximiza el bienestar de stakeholders como accionistas, empleados y comunidades.
 
-    h2 Sistema chino
-    p.mb-4 El sistema chino se enfoca en:
-    .row.mb-4
-      .col-12.col-lg-10.mx-auto
-        .bg-gris-claro.p-4.mb-3(data-aos="fade-up")
-          .row
-            .col-auto.d-flex.mx-auto.mb-3.mb-md-0
-              img(style="width:90px" src='@/assets/curso/unidad/img-26.svg', alt='Texto que describa la imagen')
-            .col-12.col-md-5.d-flex.mb-3.mb-md-0
-              h2.my-auto Estructura simple
-            .col-12.col-md-5
-              span Con énfasis en políticas de riesgo y auditoría.
-        .bg-gris-claro.p-4.mb-3(data-aos="fade-up")
-          .row
-            .col-auto.d-flex.mx-auto.mb-3.mb-md-0
-              img(style="width:90px" src='@/assets/curso/unidad/img-27.svg', alt='Texto que describa la imagen')
-            .col-12.col-md-5.d-flex.mb-3.mb-md-0
-              h2.my-auto Participación externa 
-            .col-12.col-md-5
-              span Mayor ponderación de independientes en la supervisión.
-        .bg-gris-claro.p-4.mb-3(data-aos="fade-up")
-          .row
-            .col-auto.d-flex.mx-auto.mb-3.mb-md-0
-              img(style="width:90px" src='@/assets/curso/unidad/img-28.svg', alt='Texto que describa la imagen')
-            .col-12.col-md-5.d-flex.mb-3.mb-md-0
-              h2.my-auto Transparencia
-            .col-12.col-md-5
-              span Divulgación abierta de información corporativa y derechos de los accionistas para participar en la toma de decisiones.
+          .div(titulo="Ética deontológica")
+            p ●	Basada en el cumplimiento de reglas y deberes morales.<br>●	Enfatiza principios fundamentales como la justicia, la honestidad y el respeto a los derechos humanos.<br>●	Algunas acciones son moralmente obligatorias, incluso si no generan beneficios inmediatos para la empresa.
 
-    h2 Sistema germano
-    p.mb-4 El modelo alemán se destaca por:
-    .row.mb-4
-      .col-12.col-md-10.col-lg-8.mx-auto
-        .row.mb-4
-          .col-6.mx-auto.d-flex.flex-column(data-aos="fade-right")
-            .bg-verde-2.px-4.py-3.mb-0.border-verde.rounded-top-16
-              p.text-bold.mb-0.text-white Supervisión dual 
-            .bg-verde-2-claro.p-4.h-100.border-verde.rounded-bottom-16
-              span Una junta supervisa la administración de otros órganos reguladores.
-          .col-6.mx-auto.d-flex.flex-column(data-aos="fade-right")
-            .bg-morado.px-4.py-3.mb-0.border-morado.rounded-top-16
-              p.text-bold.mb-0.text-white Separación de roles
-            .bg-morado-2-claro.p-4.h-100.border-morado.rounded-bottom-16
-              span Los miembros de la junta no pueden formar parte del consejo administrativo.
-
-    h2 Sistema ecuatoriano
-    .row.position-relative.mb-5.py-4.bg-fondo-1.bg-full-width
-      div.px-4.px-md-5.py-md-3
-        .row.mb-4
-          .col-12.col-xl-7
-            p.mb-4 El gobierno corporativo ecuatoriano se conceptualiza como un medio de control y transparencia, promoviendo:
-            .bg-verde.p-4.mb-4(data-aos="fade-up")
-              .d-flex.mb-2
-                p •
-                p.mb-0 <b>Trato equitativo: </b>Protección de los derechos de socios o accionistas. 
-              .d-flex.mb-2
-                p •
-                p.mb-0 <b>Transparencia: </b>Rendición de cuentas y comunicación eficiente.
-              .d-flex.mb-2
-                p •
-                p.mb-0 <b>Responsabilidad corporativa:</b> Consideración de aspectos sociales y ambientales.
-              .d-flex.mb-0
-                p •
-                p.mb-0 <b>Voluntariedad: </b>Autorregulación basada en la ética empresarial.
-            span Este modelo busca fortalecer la sostenibilidad y minimizar la corrupción mediante la administración eficiente de recursos.
-          .d-none.d-xl-block.col-xl-5
-            img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
-
-        h2 Sistema Colombiano
-        p.mb-4 En Colombia, el gobierno corporativo se basa en un conjunto de regulaciones y principios que tienen como objetivo garantizar la transparencia, la rendición de cuentas y la equidad en las empresas, fomentando la confianza de los inversores, empleados y otros grupos de interés. A continuación, se presenta un resumen de cada uno de los elementos clave mencionados:
-        p.mb-3 <b>Figura 3. </b> Sistema Colombiano
-        img.mb-5(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
-
-    .bg-full-width.border-top-9-azul
+    .bg-full-width.border-top-9-azul.mb-4
       .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/103051") Centro de Excelencia en Gobierno Corporativo, A. C. (2007). El gobierno de las entidades de la sociedad civil organizada. Editorial Miguel Ángel Porrúa.
+              a.text-small.text-primary(target="_blank" href="https://elibro.net/es/ereader/tecnologicodeloriente/79137?page=2") Gómez Salazar, D. (2013). Las organizaciones internacionales en la gobernanza: Qhapaq Ñan-Gran Ruta Inca entre Ecuador y Perú. Ediciones Abya-Yala. [Libro]
+
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank" href="https://elibro.net/") Biblioteca digital E-Libro [Sitio web]
+
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://youtu.be/Xzwu88SmG-A") Maestría administración de organizaciones (2022). Principios del gobierno corporativo [Vídeo]
+              a.text-small.text-primary(target="_blank" href="https://youtu.be/AdEgDjec14c?si=NH_WYd9W0wlrLmpP") Ministerio TIC. Gobernanza de la Inteligencia Artificial: balance entre innovación y regulación (06 de agosto 2024) [Vídeo]
+
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
 
+    .bg-full-width.border-top.actividad(style="background-color: #ebf1f5; border-top: 5px solid #f5c145 !important")
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 </template>
 

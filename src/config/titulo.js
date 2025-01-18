@@ -1,1 +1,2 @@
-module.exports = 'Unidad 1. Principios y estructuras del gobierno corporativo'
+module.exports =
+  'Unidad 3. Desafíos y tendencias del gobierno corporativo en entornos complejos'
