@@ -143,7 +143,7 @@
         TarjetaAudio.color-primario.bg-white.mb-3(
           texto="Proceso de descarga de Ética del gobierno corporativo"
           tiempo
-          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          :audio="require('../../assets/componentes/audios/Podcast_contenido_Unidad_III_Gobierno Corporativo.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
 
