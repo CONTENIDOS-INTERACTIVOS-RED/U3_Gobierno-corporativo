@@ -214,6 +214,8 @@
           p.text-bold.mb-0 Politicas inclusivas
         .bg-rojo.p-4.px-xl-5.h-100.rounded-bottom-16.text-center
           span Promover igualdad y desarrollo sostenible.
+    
+    p.mb-4 Este enfoque sirve como referencia para medir el desempeño institucional, especialmente en países en desarrollo.
 
     #t_1_2.titulo-segundo(data-aos="flip-up")
       div.d-flex
